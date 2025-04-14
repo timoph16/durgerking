@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Durger King</title>
+	<meta charset='utf-8'>
+	<link rel="icon" href="static/icon.png" type="image/x-icon">
+	<link rel='stylesheet' href='/static/css/style.css'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<h1>Каталог</h1>
+	<div style='display: flex; justify-content: center'>
+		<section style='width: 630px;' class='container'>
+			{% for p in posts %}
+			<div class='card'>
+				<img class='card-img' src='{{p.image}}'>
+				<h4>{{p.name}}</h5>
+				<p class='price'>Цена: {{p.price}} руб.</p>
+				<p class='size-list'>Размеры в наличии:<br>{{p.sizes|join(' ')}}</p>
+				<button onclick="add2cart({{p.id}}, '{{p.name}}', {{p.price}})" class='add-to-cart rubik-font-light'>Добавить</button>
+			</div>
+			{% endfor %}
+			<div class='korzina-window invs'>
+				<div>
+					<div class='close-korzina-btn' onclick='close_cart()'><img src='static/svg/close_cart.svg'></div>
+					<h2 style='color: black; display: flex; justify-content: center;' class='rubik-font'>Корзина</h2>
+					<div class='table' style='width: 560px;'>
+						<table class='korzina-table' style='width: 560px;'>
+							<tr class='rubik-font' style='background-color: purple; color: white; height: 40px; font-size: 12px;'>
+								<th>ID</th>
+								<th>Название товара</th>
+								<th>Цена</th>
+								<th colspan="3">Кол-во</th>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<button class='korzina-btn invs' onclick='open_cart()'>
+		<img src='static/svg/shopping_cart.svg'>
+	</button>
+	<script src='static/js/script.js'></script>
+</body>
+</html>

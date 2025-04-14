@@ -1,0 +1,125 @@
+body {
+	background-color: black;
+}
+
+h1, .container {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.add-to-cart {
+	background-color: orange;
+	cursor: default;
+	transition-duration: 350ms;
+}
+.add-to-cart:hover {
+	background-color: violet;
+	cursor: pointer;
+	transition-duration: 350ms;
+}
+button {
+	background-color: yellow;
+	border-style: none;
+	width: 200px;
+	height: 35px;
+	border-radius: 10px;
+}
+.card {
+	width: 200px;
+	padding: 10px;
+}
+
+.card-img {
+	object-fit: cover;
+	object-position: 50% 50%;
+	width: 180px;
+	height: 120px;
+	overflow: hidden;
+}
+.rubik-font, p, h1, h4 {
+	color: white;
+	font-family: "Rubik", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+}
+.rubik-font-light {
+	font-family: "Rubik", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+}
+.korzina-btn {
+	background-color: yellow;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 25px;
+	right: 25px;
+	cursor: default;
+	transition-duration: 350ms;
+}
+.korzina-btn:hover {
+	background-color: violet;
+	cursor: pointer;
+	transition-duration: 350ms;
+}
+.korzina-btn.invs {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 25px;
+	right: -75px;
+	transition-duration: 350ms;
+}
+.korzina-window {
+	padding: 10px;
+	background-color: yellow;
+	border-radius: 10px;
+	position: fixed;
+	left: 20px;
+	right: 20px;
+	top: 20px;
+	bottom: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	transition-duration: 350ms;
+}
+.korzina-window.invs {
+	display: none;
+	transition-duration: 350ms;
+}
+.columns-del:hover {
+	cursor: pointer;
+}
+.columns-del:active {
+	color: red;
+	cursor: pointer;
+}
+
+
+.close-korzina-btn {
+	width: 24px;
+	height: 24px;
+	position: fixed;
+	top: 26px;
+	right: 26px;
+	cursor: default;
+	transform: rotate(0deg);
+	transition-duration: 250ms;
+}
+.close-korzina-btn:hover {
+	cursor: pointer;
+	transform: rotate(90deg);
+	transition-duration: 250ms;
+}
+.korzina-table {
+	border: 2px solid black;
+	overflow: hidden;
+}
+td {
+	text-align: center;
+}
+
+
+
