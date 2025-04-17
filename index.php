@@ -15,24 +15,12 @@
 	<h1>Каталог</h1>
 	<div style='display: flex; justify-content: center'>
 		<section style='width: 630px;' class='container'>
-			<?php
-			$prods = [
-				'1' => ['Кроссовки 555', 555, 'https://shop4test.intermir.ru/img/85-1.jpg'],
-				'2' => ['Кроссовки 666', 666, 'https://shop4test.intermir.ru/img/86-1.jpg'],
-				'3' => ['Кроссовки 777', 777, 'https://shop4test.intermir.ru/img/87-1.jpg'],
-				'4' => ['Кроссовки 888', 888, 'https://shop4test.intermir.ru/img/88-1.jpg'],
-				'5' => ['Кроссовки 999', 999, 'https://shop4test.intermir.ru/img/89-1.jpg'],
-				'6' => ['Кроссовки 1000', 1000, 'https://shop4test.intermir.ru/img/90-1.jpg']
-			];
-			foreach($prods as $id => $prod){
-				$cart_info = "<div class='card'>";
-				$cart_info += "<img class='card-img' src=$prod[2]>";
-				$cart_info += "<h4>$prod[0]</h4>";
-				$cart_info += "<p class='price'>Цена: $prod[1] руб.</p>";
-				$cart_info += "<p class='size-list'>Размеры в наличии:<br>37 38 39 40 42 43 45</p>";
-				$cart_info += "<button data-id='$id' data-name='$prod[0]' data-price=$prod[1]' class='add-to-cart rubik-font-light'>Добавить</button></div>"
-			}
-			?>
+			<div class='card'>
+				<img class='card-img' src='https:/shop4test.intermir.ru/img/85-1.jpg'>
+				<h4>Кроссовки 555</h4>
+				<p class='price'>Цена: 555 руб.</p>
+				<p class='size-list'>Размеры в наличии:<br>37 38 39 40 42 43 45</p>
+				<button data-id='1' data-name='Кроссовки 555' data-price=555 class='add-to-cart rubik-font-light'>Добавить</button></div>
 			<div class='korzina-window invs'>
 				<div>
 					<div class='close-korzina-btn' onclick='close_cart()'><img src='static/svg/close_cart.svg'></div>
