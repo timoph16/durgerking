@@ -27,7 +27,7 @@ for (let i = 0; i<12; i++){
 	<button data-id=`+posts[i]["id"]+` data-name='`+posts[i]["name"]+`' data-price=`+posts[i]["price"]+` class='add-to-cart rubik-font-light'>Добавить</button>
 	</div>`
 }
-console.log(shop_info);
+//console.log(shop_info);
 shop_card.outerHTML = shop_info
 //~ `<div class='card'>
 	//~ <img class='card-img' src='https://shop4test.intermir.ru/img/85-1.jpg'>
