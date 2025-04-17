@@ -8,9 +8,16 @@ posts = [
 	{'id': 3, 'name': 'Кроссовки 888', 'price': 888, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 8, 'image': 'https://shop4test.intermir.ru/img/88-1.jpg'},
 	{'id': 4, 'name': 'Кроссовки 999', 'price': 999, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 9, 'image': 'https://shop4test.intermir.ru/img/89-1.jpg'},
 	{'id': 5, 'name': 'Кроссовки 1000', 'price': 1000, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 10, 'image': 'https://shop4test.intermir.ru/img/90-1.jpg'},
+	{'id': 6, 'name': 'Кроссовки 1001', 'price': 1001, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 10, 'image': 'https://shop4test.intermir.ru/img/91-1.jpg'},
+	{'id': 7, 'name': 'Кроссовки 1002', 'price': 1002, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 10, 'image': 'https://shop4test.intermir.ru/img/92-1.jpg'},
+	{'id': 8, 'name': 'Кроссовки 1003', 'price': 1003, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 10, 'image': 'https://shop4test.intermir.ru/img/93-1.jpg'},
+	{'id': 9, 'name': 'Кроссовки 1004', 'price': 1004, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 10, 'image': 'https://shop4test.intermir.ru/img/94-1.jpg'},
+	{'id': 10, 'name': 'Кроссовки 1005', 'price': 1005, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 10, 'image': 'https://shop4test.intermir.ru/img/95-1.jpg'},
+	{'id': 11, 'name': 'Кроссовки 1006', 'price': 1006, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 10, 'image': 'https://test.delotime.online/img/krossovki/96-1.webp'}
+	
 ];
 
-for (let i = 0; i<6; i++){
+for (let i = 0; i<12; i++){
 	shop_info += `
 	<div class='card'>
 	<img class='card-img' src=`+posts[i]["image"]+`>
@@ -20,6 +27,7 @@ for (let i = 0; i<6; i++){
 	<button data-id=`+posts[i]["id"]+` data-name='`+posts[i]["name"]+`' data-price=`+posts[i]["price"]+` class='add-to-cart rubik-font-light'>Добавить</button>
 	</div>`
 }
+console.log(shop_info);
 shop_card.outerHTML = shop_info
 //~ `<div class='card'>
 	//~ <img class='card-img' src='https://shop4test.intermir.ru/img/85-1.jpg'>
