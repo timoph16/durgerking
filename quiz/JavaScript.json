@@ -1,0 +1,120 @@
+{
+	"email": "belozerov.o.s@yandex.ru",
+	"telegram_id": 781684193,
+	"test": {
+		"id": 125,
+		"title": "JavaScript",
+		"duration": 60,
+		"code": "javascript",
+		"questions": [
+			{
+				"question": "Что выведет этот код\n alert(20e-1['toString']2))",
+				"answers": ["2", "10", "20", ""],
+				"correctAnswer": "10",
+				"value": 10
+			},
+			{
+				"question": "'Что выведет sayHi при вызове через setTimeout?\nlet name = 'Вася'; \n function sayHi() {\n   alert(name);\n}setTimeout(function(){let name = 'Петя'; sayHi();}, 1000)'",
+				"answers": ["Вася", "Петя", "undefined", ""],
+				"correctAnswer": "Вася",
+				"value": 10
+			},
+			{
+				"question": "Чему равно i в конце кода? \n for(let i=0; i<10; i++) {console.log(i)}",
+				"answers": ["9", "10", "Нет такой переменной после числа", ""],
+				"correctAnswer": "Нет такой переменной после числа",
+				"value": 10
+			},
+			{
+				"question": "Что выведет этот скрипт?",
+				"answers": ["underfined", "NaN", "В коде ошибка", ""],
+				"correctAnswer": "В коде ошибка",
+				"value": 10
+			},
+			{
+				"question": "Что выведет этот код? \n function User(){ User.prototype = { admin: false }; let user = new User(); User.prototype = { admin: true } alert(user.admin)",
+				"answers": ["false", "undefined", "true", ""],
+				"correctAnswer": "false",
+				"value": 10
+			},
+			{
+				"question": "Что выведет этот код? \n function User() { } User.prototype = { admin: false }; let user = new User(); alert(user.admin);",
+				"answers": ["false", "undefined", "true", ""],
+				"correctAnswer": "false",
+				"value": 10
+			},
+			{
+				"question": "Что выведет этот код? \n f.call(null); function f() {alert(this)}",
+				"answers": ["null", "undefined", "в коде ошибка", ""],
+				"correctAnswer": "null",
+				"value": 10
+			},
+			{
+				"question": "Что выведет этот код? Посмотрите на него очень внимательно, в этом вопросе есть подвох. \n let a = [1,2] (function() { alert(a) })()",
+				"answers": ["null", "undefined", "в коде ошибка", ""],
+				"correctAnswer": "в коде ошибка",
+				"value": 10
+			},
+			{
+				"question": "Что делает код: \n break me;",
+				"answers": ["Ломает интерпретатор JS", "Выходит из текущего блока цикла или switch на метку «me».", "Выдает ошибку", ""],
+				"correctAnswer": "Выходит из текущего блока цикла или switch на метку «me».",
+				"value": 10
+			},
+			{
+				"question": "Что выведет этот код? \n for(let i=0; i<10; i++) { setTimeout(function() { alert(i); }, 100)};",
+				"answers": ["Числа от 0 до 9", "Числа от 0 до 10", "10 раз число 0.", ""],
+				"correctAnswer": "Числа от 0 до 9",
+				"value": 10
+			},
+			{
+				"question": "Чему равен typeof null в режиме use strict?",
+				"answers": ["null", "undefined", "object", ""],
+				"correctAnswer": "object",
+				"value": 10
+			},
+			{
+				"question": "Чему равно такое выражение? \n [] + false - null + true",
+				"answers": ["0", "NaN", "undefined", ""],
+				"correctAnswer": "NaN",
+				"value": 10
+			},
+			{
+				"question": "Сколько параметров можно передать функции?",
+				"answers": ["Сколько указано в определении функции или меньше.", "Сколько указано в определении функции или больше.", "Любое количество.", ""],
+				"correctAnswer": "Любое количество.",
+				"value": 10
+			},
+			{
+				"question": "Верно ли, что null == undefined?",
+				"answers": ["Да", "Нет", "", ""],
+				"correctAnswer": "Нет",
+				"value": 10
+			},
+			{
+				"question": "Что выведет alert? \n let arr = [1, 2, 3]; arr.something = 5; alert(arr.something);",
+				"answers": ["5", "undefined", "Будет ошибка", ""],
+				"correctAnswer": "5",
+				"value": 10
+			},
+			{
+				"question": "Верно ли сравнение: 'ёжик' > 'яблоко'",
+				"answers": ["Да", "Нет", "Зависит от локальных браузера", ""],
+				"correctAnswer": "Да",
+				"value": 10
+			},
+			{
+				"question": "'Сработает ли вызов функции до объявления в этом ходе:\n sayHi(); function sayHi(){ alert('Hello'); }",
+				"answers": ["Да, сработает", "Нет, вызов должен стоять после объявления", "", ""],
+				"correctAnswer": "Да, сработает",
+				"value": 10
+			},
+			{
+				"question": "Чему равна сумма [] + 1 + 2 ?",
+				"answers": ["NaN", "undefined", "12", ""],
+				"correctAnswer": "12",
+				"value": 10
+			}
+		]
+	}
+}

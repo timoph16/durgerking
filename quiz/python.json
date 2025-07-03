@@ -1,0 +1,162 @@
+{
+	"email": "belozerov.o.s@yandex.ru",
+	"telegram_id": 781684193,
+	"test": {
+		"id": 124,
+		"title": "Тест Python",
+		"duration": 60,
+		"code": "python",
+		"questions": [
+			{
+				"question": "Каков правильный синтаксис для вывода ''Привет Мир'' в Python?",
+				"answers": ["print('Привет Мир')", "p('Привет Мир')", "echo('Привет Мир')", "echo 'Привет Мир'"],
+				"correctAnswer": "print('Привет Мир')",
+				"value": 10
+			},
+			{
+				"question": "Как вы вставляете комментарии в код Python?",
+				"answers": ["#Это комментарий", "/*Это комментарий*/", "//Это комментарий", ""],
+				"correctAnswer": "#Это комментарий",
+				"value": 10
+			},
+			{
+				"question": "Какое из них не является законным именем переменной?",
+				"answers": ["Myvar", "_myvar", "my-var", "my_var"],
+				"correctAnswer": "my-var",
+				"value": 10
+			},
+			{
+				"question": "Как создать переменную с числовым значением 5?",
+				"answers": ["x = int(5)", "x = 5", "Все варианты верны", ""],
+				"correctAnswer": "Все варианты верны",
+				"value": 10
+			},
+			{
+				"question": "Какое правильное расширение файла для файлов Python?",
+				"answers": [".pt", ".pyt", ".pyth", ".py"],
+				"correctAnswer": ".py",
+				"value": 10
+			},
+			{
+				"question": "Как создать переменную с плавающим числом 2.8?",
+				"answers": ["x = float(2.8)", "x = 2.8", "Все варианты верны", ""],
+				"correctAnswer": "Все варианты верны",
+				"value": 10
+			},
+			{
+				"question": "Какой правильный синтаксис для вывода типа переменной или объекта в Python?",
+				"answers": ["print(typeof(x))", "print(typeOf(x))", "print(type(x))", "print(typeof x)"],
+				"correctAnswer": "print(type(x))",
+				"value": 10
+			},
+			{
+				"question": "Как правильно создать функцию в Python?",
+				"answers": ["function myFunction():", "def myFunction():", "create myFunction():", ""],
+				"correctAnswer": "def myFunction():",
+				"value": 10
+			},
+			{
+				"question": "В Python 'Привет' - это то же самое, что и ''Привет''",
+				"answers": ["Да", "Нет", "", ""],
+				"correctAnswer": "Да",
+				"value": 10
+			},
+			{
+				"question": "Какой правильный синтаксис для возврата первого символа в строке?",
+				"answers": ["x = 'Привет'[0]", "x = 'Привет'.sub(0, 1)", "x = sub('Привет', 0, 1)", ""],
+				"correctAnswer": "x = 'Привет'[0]",
+				"value": 10
+			},
+			{
+				"question": "Какой метод можно использовать для удаления любых пробелов как из начала, так и из конца строки?",
+				"answers": ["strip()", "ptrim()", "trim()", "len()"],
+				"correctAnswer": "strip()",
+				"value": 10
+			},
+			{
+				"question": "Какой метод можно использовать для возврата строки в верхнем регистре букв?",
+				"answers": ["upperCase()", "upper()", "toUpperCase()", "uppercase()"],
+				"correctAnswer": "upper()",
+				"value": 10
+			},
+			{
+				"question": "Какой метод можно использовать для замены частей строки?",
+				"answers": ["replaceString()", "replace()", "switch()", "repl()"],
+				"correctAnswer": "replace()",
+				"value": 10
+			},
+			{
+				"question": "Какой оператор используется для умножения чисел?",
+				"answers": ["*", "x", "%", "#"],
+				"correctAnswer": "*",
+				"value": 10
+			},
+			{
+				"question": "Какой оператор можно использовать для сравнения двух значений?",
+				"answers": ["==", "=", "<>", "><"],
+				"correctAnswer": "==",
+				"value": 10
+			},
+			{
+				"question": "Какая из этих коллекций определяет LIST?",
+				"answers": ["['apple', 'banana', 'cherry']", "('apple', 'banana', 'cherry')", "{'apple', 'banana', 'cherry'}", "{'name': 'apple', 'color': 'green'}"], 
+				"correctAnswer": "['apple', 'banana', 'cherry']",
+				"value": 10
+			},
+			{
+				"question": "Какая из этих коллекций определяет TUPLE?",
+				"answers": ["['apple', 'banana', 'cherry']", "('apple', 'banana', 'cherry')", "{'apple', 'banana', 'cherry'}", "{'name': 'apple', 'color': 'green'}"], 
+				"correctAnswer": "('apple', 'banana', 'cherry')",
+				"value": 10
+			},
+			{
+				"question": "Какие из этих коллекций определяет SET?",
+				"answers": ["['apple', 'banana', 'cherry']", "('apple', 'banana', 'cherry')", "{'apple', 'banana', 'cherry'}", "{'name': 'apple', 'color': 'green'}"], 
+				"correctAnswer": "{'apple', 'banana', 'cherry'}",
+				"value": 10
+			},
+			{
+				"question": "Какие из этих коллекций определяет DICTIONARY?",
+				"answers": ["['apple', 'banana', 'cherry']", "('apple', 'banana', 'cherry')", "{'apple', 'banana', 'cherry'}", "{'name': 'apple', 'color': 'green'}"],
+				"correctAnswer": "{'name': 'apple', 'color': 'green'}",
+				"value": 10
+			},
+			{
+				"question": "Какая коллекция упорядочена, изменчива и допускает дублирование членов?",
+				"answers": ["DICT", "SET", "LIST", "TUPLE"], 
+				"correctAnswer": "LIST",
+				"value": 10
+			},
+			{
+				"question": "Какая коллекция не допускает дублирования членов?",
+				"answers": ["DICT", "SET", "LIST", "TUPLE"], 
+				"correctAnswer": "SET",
+				"value": 10
+			},
+			{
+				"question": "Как начать писать оператор if в Python?",
+				"answers": ["if (x > y)", "if x > y then:", "if x > y:", ""], 
+				"correctAnswer": "if x > y:",
+				"value": 10
+			},
+			{
+				"question": "Как начать писать цикл while в Python?",
+				"answers": ["while (x > y)", "while x > y", "while x > y:", "x > y while {"], 
+				"correctAnswer": "while x > y:",
+				"value": 10
+			},
+			{
+				"question": "Как начать писать цикл for в Python?",
+				"answers": ["for x in y:", "for each x in y:", "for x > y:", ""], 
+				"correctAnswer": "for x in y:",
+				"value": 10
+			},
+			{
+				"question": "Какой оператор используется для остановки цикла?",
+				"answers": ["return", "exit", "stop", "break"], 
+				"correctAnswer": "break",
+				"value": 10
+			}
+		]
+	}
+}

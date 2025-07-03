@@ -1,0 +1,122 @@
+{
+    "email": "belozerov.o.s@yandex.ru",
+    "telegram_id": 781684193,
+    "test": {
+        "id": 126,
+        "title": "условиям Python",
+        "duration": 45,
+        "code": "6789",
+        "questions": [
+            {
+                "question": "if (a == a):\n\tprint(1)\nelse\n\tprint(0)?",
+                "answers": [
+                    "1",
+                    "0",
+                    "Ошибку",
+                    "Ничего"
+                ],
+                "correctAnswer": "Ошибку",
+                "value": 10
+            },
+            {
+                "question": "a = bool('False')\n\nprint(a)",
+                "answers": [
+                    "True",
+                    "False",
+                    "Ошибку",
+                    "Ничего"
+                ],
+                "correctAnswer": "True",
+                "value": 10
+            },
+            {
+                "question": "while 10==10:\n\tprint(1)\n\tbreak\nelse:\n\tprint(0)",
+                "answers": [
+                    "1",
+                    "0",
+                    "Ошибку",
+                    "Ничего"
+                ],
+                "correctAnswer": "1",
+                "value": 10
+            },
+            {
+                "question": "a=True==False\nprint(a)",
+                "answers": [
+                    "True",
+                    "False",
+                    "Ошибку",
+                    "Ничего"
+                ],
+                "correctAnswer": "False",
+                "value": 10
+            },
+            {
+                "question": "a=True==1\nprint(a)",
+                "answers": [
+                    "True",
+                    "False",
+                    "Ошибку",
+                    "Ничего"
+                ],
+                "correctAnswer": "True",
+                "value": 10
+            },
+            {
+                "question": "a=False==1\nprint(a)",
+                "answers": [
+                    "True",
+                    "False",
+                    "Ошибку",
+                    "Ничего"
+                ],
+                "correctAnswer": "False",
+                "value": 10
+            },
+            {
+                "question": "a=True - ~False\nprint(a)",
+                "answers": [
+                    "-1",
+                    "2",
+                    "Ошибку",
+                    "Ничего"
+                ],
+                "correctAnswer": "2",
+                "value": 10
+            },
+            {
+                "question": "for i in int(True):\n\tprint(i)",
+                "answers": [
+                    "1",
+                    "0 1",
+                    "Ошибку",
+                    "Ничего"
+                ],
+                "correctAnswer": "Ошибку",
+                "value": 10
+            },
+            {
+                "question": "a = \"-\" + str(int(True))\n\nprint(True)",
+                "answers": [
+                    "-1",
+                    "1",
+                    "Ошибку",
+                    "Ничего"
+                ],
+                "correctAnswer": "-1",
+                "value": 10
+            },
+            {
+                "question": "a = True > False\n\nprint(a - 10)",
+                "answers": [
+                    "-9",
+                    "-10",
+                    "Ошибку",
+                    "Ничего"
+                ],
+                "correctAnswer": "-9",
+                "value": 10
+            }
+        ]
+    }
+}

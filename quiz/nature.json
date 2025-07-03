@@ -1,0 +1,74 @@
+{
+	"email": "belozerov.o.s@yandex.ru",
+	"telegram_id": 781684193,
+	"owner_id": 781684193,
+	"test": {
+		"id": 123,
+		"title": "Природоведение",
+		"duration": 160,
+		"code": "12345",
+		"questions": [
+			{
+				"question": "Сколько ног у паука?",
+				"answers": ["1", "2", "4", "8"],
+				"correctAnswer": "8",
+				"value": 10
+			},
+			{
+				"question": "Сколько ног у улитки?",
+				"answers": ["1", "2", "4", "0"],
+				"correctAnswer": "0",
+				"value": 20
+			},
+			{
+				"question": "Сколько лап у кошки?",
+				"answers": ["1", "2", "4", "8"],
+				"correctAnswer": "4",
+				"value": 30
+			},
+			{
+				"question": "Стон и __. Какая ещё __?",
+				"answers": ["Фижма", "Хорда", "Опус", "Литр"],
+				"correctAnswer": "Фижма",
+				"value": 40
+			},
+			{
+				"question": "Самая крупная страна в мире?",
+				"answers": ["Россия", "Китай", "Канада", "США"],
+				"correctAnswer": "Россия",
+				"value": 50
+			},
+			{
+				"question": "Тег Жирного Текста?",
+				"answers": ["<big>", "<br>", "< b >", "<strong>"],
+				"correctAnswer": "< b >;<strong>",
+				"value": 60
+			},
+			{
+				"question": "HTML - Язык Программирования?",
+				"answers": ["Да", "Нет", "", ""],
+				"correctAnswer": "Нет",
+				"value": 70
+			},
+			{
+				"question": "Дважды Два",
+				"answers": ["Четыре", "Хороший канал", "", ""],
+				"correctAnswer": "Четыре",
+				"value": 80
+			},
+			{
+				"question": "5 умножить на 5",
+				"answers": ["25", "55", "53", ""],
+				"correctAnswer": "25",
+				"value": 90
+			},
+			{
+				"question": "Английский алфавит",
+				"answers": ["ЙЦУКЕНГ...ТЬБЮ", "a b c d ... x y z", "1 2 3 4 5 6 7 8", ""],
+				"correctAnswer": "a b c d ... x y z",
+				"value": 90
+			}
+		]
+	}
+}
+

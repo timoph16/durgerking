@@ -1,0 +1,84 @@
+{
+	"email": "belozerov.o.s@yandex.ru",
+	"telegram_id": 781684193,
+	"test": {
+		"id": 456,
+		"title": "Циклы Python",
+		"code": "456",
+		"duration": 260,
+		"questions": [
+			{
+				"question": "С помощью какого ключевого слова можно создать функцию?",
+				"answers": ["import", "def", "return", ""],
+				"correctAnswer": "def",
+				"value": 10
+			},
+			{
+				"question": "Функция  - это...",
+				"answers": [
+					"Ячейка памяти компьютера, куда можно сохранять данные",
+					"фрагменты кода для выполнения других команд",
+					"повторение одних и тех же команд",
+					""
+				],
+				"correctAnswer": "фрагменты кода для выполнения других команд",
+				"value": 10
+			},
+			{
+				"question": "С помощью какого ключевого слова можно вернуть значение из функции в основную программу?",
+				"answers": [
+					"return",
+					"continue",
+					"print",
+					"break"
+				],
+				"correctAnswer": "return",
+				"value": 10
+			},
+			{
+				"question": "Что выведет данный код?\ndef func(a, b):\n\tprint(a, b)\nfunc(10)",
+				"answers": [
+					"10", "10, None", "Ошибку", "Ничего"
+				],
+				"correctAnswer": "Ошибку",
+				"value": 10
+			},
+			{
+				"question": "Что выведет данный код?\ndef func1(a):\n\tprint('a')\nfunc1(10)",
+				"answers": ["10", "a", "Ошибку", "Ничего"],
+				"correctAnswer": "a",
+				"value": 10
+			},
+			{
+				"question": "Что выведет данный код?\ndef print(a):\n\tprint(a)\nprint(5)",
+				"answers": ["5", "5 5", "Ошибку", "Ничего"],
+				"correctAnswer": "Ошибку",
+				"value": 10
+			},
+			{
+				"question": "Что выведет данный код?\ndef f1(a):\n\tprint(a.pop(1))\nf([1, 2, 3])",
+				"answers": ["[1, 3]", "2", "Ошибку", "Ничего"],
+				"correctAnswer": "2",
+				"value": 10
+			},
+			{
+				"question": "Что выведет данный код?\ndef 1func(a):\n\tprint(a)\n1func(10)",
+				"answers": ["10", "a", "Ошибку", "Ничего"],
+				"correctAnswer": "Ошибку",
+				"value": 10
+			},
+			{
+				"question": "Что выведет данный код?\ndef func():\n\tprint(8)\na = func()",
+				"answers": ["8", "Ошибку", "Ничего", ""],
+				"correctAnswer": "8",
+				"value": 10
+			},
+			{
+				"question": "Что выведет данный код?\ndef deff():\n\tprint(1)\ndeff()",
+				"answers": ["1", "Ошибку", "Ничего", ""],
+				"correctAnswer": "1",
+				"value": 10
+			}
+		]
+	}
+}

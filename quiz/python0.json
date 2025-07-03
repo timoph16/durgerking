@@ -1,0 +1,122 @@
+{
+    "email": "belozerov.o.s@yandex.ru",
+    "telegram_id": 781684193,
+    "test": {
+        "id": 1123545,
+        "title": "Python Basics",
+        "duration": 60,
+        "code": "9966-1",
+        "questions": [
+            {
+                "question": "Какой оператор используется для объявления условия в Python?",
+                "answers": [
+                    "if",
+                    "elif",
+                    "else",
+                    "for"
+                ],
+                "correctAnswer": "if",
+                "value": 10
+            },
+            {
+                "question": "Какой тип данных является изменяемым?",
+                "answers": [
+                    "int",
+                    "str",
+                    "list",
+                    "tuple"
+                ],
+                "correctAnswer": "list",
+                "value": 15
+            },
+            {
+                "question": "Что выведет print(3 + 5 * 2)?",
+                "answers": [
+                    "13",
+                    "16",
+                    "10",
+                    "8"
+                ],
+                "correctAnswer": "13",
+                "value": 20
+            },
+            {
+                "question": "Как создать пустой словарь?",
+                "answers": [
+                    "{}",
+                    "dict()",
+                    "[]",
+                    "set()"
+                ],
+                "correctAnswer": "{}",
+                "value": 15
+            },
+            {
+                "question": "Какая функция преобразует строку в целое число?",
+                "answers": [
+                    "int()",
+                    "str()",
+                    "float()",
+                    "input()"
+                ],
+                "correctAnswer": "int()",
+                "value": 10
+            },
+            {
+                "question": "Какой цикл используется для итерации по элементам последовательности?",
+                "answers": [
+                    "for",
+                    "while",
+                    "loop",
+                    "repeat"
+                ],
+                "correctAnswer": "for",
+                "value": 10
+            },
+            {
+                "question": "Что возвращает 2 ** 3?",
+                "answers": [
+                    "6",
+                    "8",
+                    "9",
+                    "16"
+                ],
+                "correctAnswer": "8",
+                "value": 10
+            },
+            {
+                "question": "Как получить количество элементов в списке?",
+                "answers": [
+                    "len()",
+                    "count()",
+                    "size()",
+                    "length()"
+                ],
+                "correctAnswer": "len()",
+                "value": 15
+            },
+            {
+                "question": "Как добавить элемент в конец списка?",
+                "answers": [
+                    "append()",
+                    "add()",
+                    "insert()",
+                    "push()"
+                ],
+                "correctAnswer": "append()",
+                "value": 15
+            },
+            {
+                "question": "Какое исключение возникает при делении на ноль?",
+                "answers": [
+                    "ValueError",
+                    "TypeError",
+                    "ZeroDivisionError",
+                    "IndexError"
+                ],
+                "correctAnswer": "ZeroDivisionError",
+                "value": 20
+            }
+        ]
+    }
+}
