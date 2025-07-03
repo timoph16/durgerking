@@ -29,15 +29,10 @@
 		</div>
 	</div>
 	<script src='test_list.js'></script>
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
 	<script>
-		const fs = require("fs");
-		const data1 = "Hello Node.js\n";
-		fs.writeFile("hello2.txt", data, function(error){
-			if(error){  // если ошибка
-				return console.log(error);
-			}
-			console.log("Файл успешно записан");
-		});
+		let tg = window.Telegram.WebApp;
+		tg.sendData("some string that we need to send");
 		
 		
 		let entry = document.getElementById('entry');
