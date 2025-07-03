@@ -30,6 +30,16 @@
 	</div>
 	<script src='test_list.js'></script>
 	<script>
+		const fs = require("fs");
+		const data1 = "Hello Node.js\n";
+		fs.writeFile("hello2.txt", data, function(error){
+			if(error){  // если ошибка
+				return console.log(error);
+			}
+			console.log("Файл успешно записан");
+		});
+		
+		
 		let entry = document.getElementById('entry');
 		function on_change(){
 			power_off();
@@ -115,6 +125,7 @@
 			document.getElementById('stol').innerHTML = empty_list;
 		}
 		
+		on_change();
 		//~ a = JSON.parse('{"2000": {"id": 1}, "3000": {"id": 2}}') //, (key, value) //=> 
 			//typeof value === "object" ? undefined: value,
 		//)
