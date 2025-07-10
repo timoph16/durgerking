@@ -5,10 +5,17 @@
 	</head>
 	<body>
 		<h1>АДМИН ПАНЕЛЬ</h1>
+		<h2 id='text'></h2>
 	</body>
 	<style>
 		h1{
 			text-align: center;
 		}
 	</style>
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<script>
+		let tg = window.Telegram.WebApp;
+		let text = document.getElementById('text');
+		text.innerHTML = tg.initDataUnsafe.user.id;
+	</script>
 </html>
