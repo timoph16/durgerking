@@ -46,7 +46,7 @@
 					let count = data[i].len;
 					let code = data[i].code;
 					let time = data[i].time;
-					empty_list += "<div class='test-card'><p class='test-title'>"+title+"<p><div style='display: flex; justify-content: center; flex-direction: row;'>";
+					empty_list += "<div class='test-card'><p class='test-title'>"+title+"</p><div style='display: flex; justify-content: center; flex-direction: row;'>";
 					empty_list += "<span class='test-table-row'><p>ID: "+id+"</p><p>Всего вопросов: "+count+"</p></span>";
 					empty_list += "<span class='test-table-row'><p id='code_get'>Код: "+code+"</p><p>Время: "+time+"</p></span></div>"
 					empty_list += "<div style='display: flex; justify-content: center;'><button class='test-button' onclick=\"complete_test('"+code+"')\">Пройти</button></div>"
