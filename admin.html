@@ -8,7 +8,7 @@
 		<h2 id='text'></h2>
 	</body>
 	<style>
-		h1{
+		h1, h2{
 			text-align: center;
 		}
 	</style>
@@ -16,6 +16,6 @@
 	<script>
 		let tg = window.Telegram.WebApp;
 		let text = document.getElementById('text');
-		text.innerHTML = tg.initDataUnsafe.user.id;
+		console.log(tg.initDataUnsafe.user.id);
 	</script>
 </html>
