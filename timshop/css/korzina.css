@@ -1,0 +1,83 @@
+
+.send-form{
+    display: flex;
+    justify-content: center;
+}
+
+.korzina-open-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 80px;
+    background-color: white;
+    border: black, solid;
+    width: 24px;
+    height: 24px;
+}
+
+.form-control{
+    font-family: 'Rubik', sans-serif;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.send-control{
+    font-family: 'Rubik', sans-serif;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.columns-del{
+    cursor: default;
+}
+.columns-del:hover{
+    cursor: pointer;
+}
+
+.korzina-close-btn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 7.5px;
+}
+
+.korzina-table{
+    border: 1px solid;
+}
+
+th{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    width: 150px;
+    background-color: blueviolet;
+}
+tr{
+    font-family: 'Rubik', sans-serif;
+}
+.kolvo{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.korzina-win{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+.invs{
+    display: none;
+}
