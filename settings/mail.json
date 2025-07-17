@@ -1,0 +1,11 @@
+{
+	"name": "Письмо от бота Велимудр",
+	"content": "{{content}}",
+	"type": "plain",
+	"chats": [781684193],
+	"email": "timophei16@yandex.ru",
+	"date": "{{date}}",
+	"time": "{{time}}",
+	"enable_mail": true,
+	"enable_tg": true
+}
