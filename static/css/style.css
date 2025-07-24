@@ -99,6 +99,11 @@ button {
 	flex-direction: row;
 	transition-duration: 350ms;
 }
+
+#th_name td {
+	width: 50px;
+}
+
 .korzina-window.invs {
 	display: none;
 	transition-duration: 350ms;
@@ -181,12 +186,15 @@ td {
 }
 
 .form-control {
-	margin: 5px;
 	width: 300px;
 	height: 30px;
 	border: 2px solid;
 	background-color: yellow;
 	border-radius: 10px;
+}
+
+.send-form{
+	padding: 0
 }
 
 
