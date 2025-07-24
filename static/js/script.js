@@ -1,6 +1,6 @@
-let shop_card=document.querySelector('.card');
-shop_info = '';
-//alert(shop_card.outerHTML)
+let shop_card=document.querySelector('.card')
+shop_info = ''
+alert(shop_card.outerHTML)
 posts = [
 	{'id': 0, 'name': 'Кроссовки 555', 'price': 555, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 5, 'image': 'https://shop4test.intermir.ru/img/85-1.jpg'},
 	{'id': 1, 'name': 'Кроссовки 666', 'price': 666, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 6, 'image': 'https://shop4test.intermir.ru/img/86-1.jpg'},
@@ -14,7 +14,6 @@ posts = [
 	{'id': 9, 'name': 'Кроссовки 1004', 'price': 1004, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 10, 'image': 'https://shop4test.intermir.ru/img/94-1.jpg'},
 	{'id': 10, 'name': 'Кроссовки 1005', 'price': 1005, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 10, 'image': 'https://shop4test.intermir.ru/img/95-1.jpg'},
 	{'id': 11, 'name': 'Кроссовки 1006', 'price': 1006, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 10, 'image': 'https://test.delotime.online/img/krossovki/96-1.webp'}
-	
 ];
 
 for (let i = 0; i<12; i++){
@@ -27,17 +26,8 @@ for (let i = 0; i<12; i++){
 	<button data-id=`+posts[i]["id"]+` data-name='`+posts[i]["name"]+`' data-price=`+posts[i]["price"]+` class='add-to-cart rubik-font-light'>Добавить</button>
 	</div>`
 }
-//console.log(shop_info);
+console.log(shop_info);
 shop_card.outerHTML = shop_info
-//~ `<div class='card'>
-	//~ <img class='card-img' src='https://shop4test.intermir.ru/img/85-1.jpg'>
-	//~ <h4>555</h5>
-	//~ <p class='price'>Цена: 555 руб.</p>
-	//~ <p class='size-list'>Размеры в наличии:<br>37 38 39 40 42 43 45</p>
-	//~ <button data-id="1" data-name="555" data-price="555" class='add-to-cart rubik-font-light'>Добавить</button>
-//~ </div>`
-
-
 
 function insert_to_table(id, name, price, count){
 	let cart_table = document.querySelector('.korzina-table');
