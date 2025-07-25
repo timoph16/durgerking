@@ -153,7 +153,7 @@ function delete_item(itemId) {
 		localStorage.removeItem("cart");
 		check_cart();
 	}
-	document.getElementById('cost').innerHTML = `Общая стоимость: ${open_cart()} руб.`
+	document.getElementById('cost').innerHTML = `Общая стоимость: ${open_cart()} руб.`;
 }
 
 function clear_cart(){
@@ -178,7 +178,7 @@ function send_data(){
 	/*alert("{\"cart\": "+localStorage.getItem('cart')+", \n\"name\": \""+name+"\"}");*/
 }
 
-document.getElementById('cost').innerHTML = `Общая стоимость: ${open_cart()} руб.`
+document.getElementById('cost').innerHTML = `Общая стоимость: ${open_cart()} руб.`;
 
 close_cart();
 check_cart();
