@@ -1,6 +1,5 @@
-let shop_card=document.querySelector('.card')
-shop_info = ''
-alert(shop_card.outerHTML)
+let shop_card=document.querySelector('.card');
+shop_info = '';
 posts = [
 	{'id': 0, 'name': 'Кроссовки 555', 'price': 555, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 5, 'image': 'https://shop4test.intermir.ru/img/85-1.jpg'},
 	{'id': 1, 'name': 'Кроссовки 666', 'price': 666, 'sizes': [37, 38, 39, 40, 42, 43, 45], 'count': 6, 'image': 'https://shop4test.intermir.ru/img/86-1.jpg'},
