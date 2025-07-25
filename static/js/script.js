@@ -175,7 +175,7 @@ function send_data(){
 	let tg = window.Telegram.WebApp;
 	let name = document.getElementById('name_item').value;
 	tg.sendData("{\"cart\": "+localStorage.getItem('cart')+", \n\"name\": \""+name+"\"}");
-	alert("{\"cart\": "+localStorage.getItem('cart')+", \n\"name\": \""+name+"\"}");
+	/*alert("{\"cart\": "+localStorage.getItem('cart')+", \n\"name\": \""+name+"\"}");*/
 }
 
 document.getElementById('cost').innerHTML = `Общая стоимость: ${open_cart()} руб.`
