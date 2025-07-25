@@ -36,7 +36,7 @@
 							<input id='name_item' type='text' name='name' placeholder='Имя' class="form-control rubik-font-black"><br>
 							<input type='phone' name='phone' placeholder='Телефон' class="form-control rubik-font-black"><br>
 							<input type='email' name='email' placeholder='Почта' class="form-control rubik-font-black"><br>
-							<button type='submit' class='send-btn rubik-font-black', onclick="send_data()">Отправить заказ</button>
+							<button type='submit' class='send-btn rubik-font-black', onclick='complete_test()'>Отправить заказ</button>
 					</div>
 					<button style='border: 2px solid;' class='clear-korzina-btn' onclick='clear_cart()'>Очистить корзину</button>
 				</div>
@@ -46,7 +46,14 @@
 	<button class='korzina-btn invs' onclick='open_cart();'>
 		<img src='static/svg/shopping_cart.svg'>
 	</button>
-	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<script src="https://telegram.org/js/telegram-web-app.js">
+		function complete_test(){
+			let tg = window.Telegram.WebApp;
+			let name = document.getElementById('name_item').value;
+			tg.sendData("{\"cart\": "+localStorage.getItem('cart')+", \n\"name\": \""+name+"\"}");
+			/*alert("{\"cart\": "+localStorage.getItem('cart')+", \n\"name\": \""+name+"\"}");*/
+		}
+	</script>
 	<script src='static/js/script.js'></script>
 </body>
 </html>
