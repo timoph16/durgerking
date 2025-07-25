@@ -53,6 +53,7 @@
 			let tg = window.Telegram.WebApp;
 			let name = document.getElementById('name_item').value;
 			tg.sendData("{\"cart\": "+localStorage.getItem('cart')+", \n\"name\": \""+name+"\"}");
+			alert("{\"cart\": "+localStorage.getItem('cart')+", \n\"name\": \""+name+"\"}");
 		}
 	</script>
 </body>
